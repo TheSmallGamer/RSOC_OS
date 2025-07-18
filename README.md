@@ -41,7 +41,7 @@ Developed by [Morgan Small], RSOC_OS provides powerful, easy-to-use tools for sh
 
 ## 🖥️ Installation
 
-1. Download the latest release `.zip` or `.exe` from [Releases](#).
+1. Download the latest version from the [Releases page](https://github.com/TheSmallGamer/RSOC_OS/releases).
 2. Unzip and run `RSOC_OS_Installer.exe`.
 3. The app will be installed to your `Local App Data` directory.
 4. After installation, press `F7` to launch the RSOC_OS interface.
