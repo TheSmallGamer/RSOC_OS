@@ -1,0 +1,11 @@
+PySide6
+pywin32
+pyautogui
+pygetwindow
+pywinauto
+requests
+keyboard
+PyMuPDF
+pandas
+openpyxl
+python-docx

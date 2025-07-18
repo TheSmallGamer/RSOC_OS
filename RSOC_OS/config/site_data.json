@@ -1,0 +1,103 @@
+{
+    "Austin": {
+        "state": "TX",
+        "addresses": [
+            "12445 Research Blvd, Austin, TX 78759",
+            "900 New Meister Ln, Pflugerville, TX 78660",
+            "2050 Chisholm Trail Rd. Round Rock, 78681",
+            "9500 Metric Blvd, Austin, TX 78758"
+        ]
+    },
+    "Buffalo Grove": {
+        "state": "IL",
+        "addresses": [
+            "700 Corporate Grove Drive Buffalo Grove, IL 60089"
+        ]
+    },
+    "Columbia": {
+        "state": "SC",
+        "addresses": [
+            "1000 Technology Dr, West Columbia, SC 29170"
+        ]
+    },
+    "Coopersville": {
+        "state": "MI",
+        "addresses": [
+            "323 Skeels Street",
+            "350 Skeels Street, Coopersville, MI 49404"
+        ]
+    },
+    "Hollis": {
+        "state": "NH",
+        "addresses": [
+            "12 Silver Lake Rd, NH 03049"
+        ]
+    },
+    "Manchester": {
+        "state": "CT",
+        "addresses": [
+            "71 Utopia Rd, Manchester, CT 06042"
+        ]
+    },
+    "Memphis": {
+        "state": "TN",
+        "addresses": [
+            "6380 E Holmes Road 38141",
+            "5300 Hickory Hill Road Memphis, TN"
+        ]
+    },
+    "Milpitas": {
+        "state": "CA",
+        "addresses": [
+            "845 Gibraltar Drive, Milpitas, CA 95035"
+        ]
+    },
+    "Northfield": {
+        "state": "MN",
+        "addresses": [
+            "1150 Sheldahl Rd, Northfield, MN 55057"
+        ]
+    },
+    "Newmarket": {
+        "state": "Ontario, CA",
+        "addresses": [
+            "450 Hood Rd Markham, Ontario L3R 9Z3"
+        ]
+    },
+    "Farmington Hills": {
+        "state": "MI",
+        "addresses": [
+            "27755 Stansbury St #300, Farmington Hills, MI 48334"
+        ]
+    },
+    "Richmond": {
+        "state": "CA",
+        "addresses": [
+            "2704 Seven Hills Boulevard, Richmond, Virginia 23231"
+        ]
+    },
+    "Sacramento": {
+        "state": "",
+        "addresses": [
+            "1200 Striker Ave, Sacramento, CA, 95834"
+        ]
+    },
+    "San Jose": {
+        "state": "CA",
+        "addresses": [
+            "6201 America Center Dr., San Jose Ca, 95002"
+        ]
+    },
+    "Salt Lake City": {
+        "state": "UT",
+        "addresses": [
+            "5420 John Cannon Drive"
+        ]
+    },
+    "Sterling Heights": {
+        "state": "MI",
+        "addresses": [
+            "5980 Progress Drive Sterling Heights, MI"
+        ]
+    }
+}

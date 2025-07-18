@@ -1,0 +1,96 @@
+
+QWidget {
+    background-color:rgb(213, 221, 231);
+    color: black;
+}
+#TitleBox {
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: 2px solid #a0a0a0;
+    margin: 0;
+    padding: 0;
+}
+#TitleLabel {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+#SidebarBox {
+    background-color: rgb(213, 221, 231);
+    border-right: 2px solid #b5c0cd;
+}
+QPushButton {
+    background-color: #dce3eb;
+    color: #1a1a1a;
+    border: 2px solid #b5c0cd;
+    border-radius: 12px;
+    font-size: 18px;
+}
+QPushButton:hover {
+    background-color: #cfd8e3;
+}
+QPushButton:pressed {
+    background-color: #dce3eb;
+    border: 2px solid #e0e0e0;
+}   
+#QuickNotesTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+#ClipboardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#ClipboardCard {
+    background-color: #e0e0e0;
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    padding: 8px;
+}
+#ClipboardCard QLabel {
+    color: black;
+}
+#AlertsTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#AlertCard {
+    background-color: #e0e0e0;
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    padding: 8px;   
+}
+#SitrepTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+QTabBar::tab {
+    background: #e3eaf2;
+    color: #1a1a1a;
+    padding: 6px 12px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 2px;
+}
+QTabBar::tab:selected {
+    background: #0078d7;
+    color: white;
+}
+QTabWidget::pane {
+    border: 1px solid #a0a0a0;
+    top: -1px;
+}
+QHeaderView::section {
+    background-color: #dce3eb;
+    color: #1a1a1a;
+    padding: 4px;
+    font-weight: bold;
+    border: 1px solid #b6bcc4;
+}
+

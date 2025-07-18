@@ -1,0 +1,200 @@
+{
+  "roles": {
+    "director loss prevention": "elisa.ribas@flex.com",
+    "bps manager": "Jordan Kellogg <jordan.kellogg@flex.com>",
+    "rsoc": "rsoc@flex.com",
+    "rsoc account manager": "chris.neagle@flex.com",
+    "rsoc assistant account manager": "tremaine.louie@flex.com",
+    "aur austin cmt": "#US - AUR Austin CMT <us.auraustincmt@flex.com>",
+    "aur ehs austin": "#US - AUR EHS Austin <us.aurehsaustin@flex.com>",
+    "aur medic": "Jennifer Guzzi <Jennifer.Guzzi@flex.com>",
+    "floor mgr": "Dakota Monday <Dakota.Monday@flex.com>",
+    "ass floor mgr": "McKensie Tucker <McKensie.Tucker@flex.com>",
+    "rsoc supervisors": [
+      "Joseph Rodriguez (AUR1) <Joseph.RodriguezJR@flex.com>",
+      "Brittany Gaines (AUR) <Brittany.Gaines2@flex.com>",
+      "Zackery Hardwick ( at Flex) <Zackery.Hardwick@flex.com>",
+      "Heather Sclafani <heather.sclafani@flex.com>"
+    ],
+    "floor security supervisors": [
+      "Neal Kiser <Neal.Kiser@flex.com>",
+      "Geraldo Turner <Geraldo.Turner@flex.com>",
+      "Erica Wortham <Erica.Wortham@flex.com>",
+      "Ronald Frank Barba <Ronald.Barba@flex.com>",
+      "Basia Lathan(AUR1) <Basia.Lathan2@flex.com>"
+    ]
+  },
+
+  "bulletin_recipients": {
+    "to": ["director loss prevention", "bps manager"],
+    "cc": ["rsoc", "rsoc account manager", "rsoc assistant account manager"]
+  },
+
+  "medical_recipients": {
+    "normal": {
+      "to": ["rsoc", "aur austin cmt", "aur ehs austin", "bps manager", "aur medic"],
+      "cc": ["floor mgr", "ass floor mgr", "rsoc account manager", "rsoc assistant account manager"]
+    },
+    "restricted": {
+      "to": ["bps manager"],
+      "cc": ["rsoc", "rsoc account manager", "rsoc assistant account manager"]
+    },
+    "bps_manager": "bps manager"
+  },
+
+  "gate_communication": {
+      "to": ["bps manager", "floor mgr", "ass floor mgr", "rsoc account manager", "rsoc assistant account manager"],
+      "cc": ["rsoc", "floor security supervisors"]
+  },
+
+  "post_trackers": {
+    "to": ["bps manager", "floor mgr", "ass floor mgr"],
+    "cc": ["rsoc"],
+    "bcc": ["rsoc account manager", "rsoc assistant account manager", "rsoc supervisors"]
+  },
+
+  "passdown": {
+    "to": ["rsoc supervisors"],
+    "cc": ["rsoc account manager", "rsoc assistant account manager", "rsoc"]
+  },
+
+  "agencies": {
+    "Staffmark": "136137austinflexox@staffmark.com",
+    "Volt": "Flexaustin@volt.com",
+    "Onin": "flextronicsaustin@oninstaffing.com",
+    "Aerotek": "AustinFlex@aerotek.com",
+    "L&T": "g.mcdonald@ltts.com"
+  },
+
+  "weather_advisory": {
+    "to": ["bps manager"],
+    "cc": ["rsoc", "rsoc account manager", "rsoc assistant account manager"]
+  },
+
+  "general_sitrep": {
+    "to": ["bps manager", "floor mgr", "ass floor mgr"],
+    "cc": ["rsoc", "rsoc account manager", "rsoc assistant account manager"],
+    "bps_manager": "Jordan Kellogg"
+  },
+
+  "navex_recipients": {
+    "US and Canada": {
+      "to": [
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Jordan Kellogg <Jordan.Kellogg@flex.com>"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Elisa Ribas"
+    },
+    "Mexico and Costa Rica": {
+      "to": [
+        "Salvador Morales <salvador.morales@flex.com>",
+        "RSOCMexico <rsocmexico@flex.com>"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Elisa Ribas"
+    },
+    "Brazil": {
+      "to": [
+        "Avraham Cohen <avraham.cohen@flex.com>",
+        "Rafael Reges <rafael.reges@flex.com>"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Avraham Cohen"
+    },
+    "Europe": {
+      "to": [
+        "Zsolt Zolyomi <zsolt.zolyomi@flex.com>",
+        "Jozsef Nemes <jozsef.nemes@flex.com>"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Zsolt Zolyomi"
+    },
+    "China": {
+      "to": [
+        "Kevin Jiao <kevin.jiao@flex.com>",
+        "Steel Liu <steel.liu@flex.com>"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Kevin Jiao"
+    },
+    "India": {
+      "to": [
+        "Balachandran G <balachandran.g@flex.com>",
+        "PratheejKG.Nair@flex.com"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Balachandran G"
+    },
+    "Penang / Southeast Asia": {
+      "to": [
+        "Azman Bin Mahmood <Azman.Mahmood@flex.com>",
+        "IsmadiBin.Mukhtar@flex.com"
+      ],
+      "cc": [
+        "Bill Gannon <Bill.Gannon@flex.com>",
+        "Elisa Ribas <elisa.ribas@flex.com>",
+        "Avraham Cohen <avraham.cohen@flex.com>"
+      ],
+      "bcc": [
+        "rsoc account manager",
+        "rsoc assistant account manager",
+        "rsoc"
+      ],
+      "bps_manager": "Azman Bin Mahmood"
+    }
+  }
+}
